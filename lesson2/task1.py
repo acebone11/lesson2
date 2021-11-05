@@ -1,6 +1,4 @@
-my_int = 1
-my_float = 1.2
-my_string =" string"
-my_list = [my_int, my_float, my_string]
+
+my_list = [1, 2.0, "fifa", True]
 for i in my_list:
-    print("Тип данных", type(i))
+    print(i, "Тип данных", type(i))
